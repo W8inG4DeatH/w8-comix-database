@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { IUser } from 'src/app/areas/areas.interfaces';
+import { IUser } from './user.interfaces';
 
 @Component({
     selector: 'user',
@@ -18,7 +18,6 @@ export class UserComponent implements OnInit {
     constructor() { }
 
     ngOnInit(): void {
-        // console.log('User init:', this.user, this.layoutInvert);
     }
 
 }

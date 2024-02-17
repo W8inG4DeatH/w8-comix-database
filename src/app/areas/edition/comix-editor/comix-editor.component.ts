@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { IComixItem } from 'src/app/areas/list/list.interfaces';
+import { ListDataService } from 'src/app/areas/list/list-data.service';
 
 @Component({
   selector: 'comix-editor',
@@ -11,59 +12,58 @@ import { IComixItem } from 'src/app/areas/list/list.interfaces';
 export class ComixEditorComponent implements OnInit {
 
   @Input()
-  public element: IComixItem = this.PrepareNewElement();
-
-  @Input()
   public id: number | null = null;
 
+  public element: IComixItem = this.PrepareNewElement();
+
   constructor(
-    private activatedRoute: ActivatedRoute
+    private activatedRoute: ActivatedRoute,
+    private listDataService: ListDataService
   ) {
   }
 
   ngOnInit(): void {
-    this.GetIdParameter();
+    this.getElementById();
   }
 
-  GetIdParameter() {
+  getElementById(): void {
     this.activatedRoute.paramMap.subscribe(params => {
       const idParam = params.get('id');
       const id = idParam !== null ? Number(idParam) : null;
 
       if (id !== null && Number.isFinite(id)) {
         this.id = id;
-        this.element = this.LoadElement(this.id);
+        this.loadElementById(id);
       }
+    });
+  }
+
+  loadElementById(id: number): void {
+    this.listDataService.getComixListData().subscribe(data => {
+      const foundItem = data.find(item => item.id === id);
+      this.element = foundItem !== undefined ? foundItem : this.PrepareNewElement();
     });
   }
 
   PrepareNewElement(): IComixItem {
     const newElement: IComixItem = {
-      SeriesTitle: '',
-      ComixTitle: '',
-      Author: '',
-      Publisher: '',
-      PublishmentYear: '',
-      NumberOfPages: 1,
-      CoverHard: false,
-      Rating: 1,
-      Collected: false
+      id: 0,
+      seriesTitle: '',
+      comixTitle: '',
+      author: '',
+      publisher: '',
+      publishmentYear: null,
+      numberOfPages: 1,
+      coverHard: false,
+      rating: 1,
+      collected: false,
+      userId: 1
     };
     return newElement;
   }
 
   LoadElement(id: number): IComixItem {
-    const loadedElement: IComixItem = {
-      SeriesTitle: 'Minionki',
-      ComixTitle: 'Gru to szef',
-      Author: 'WB',
-      Publisher: 'EGMONT Polska',
-      PublishmentYear: '2024',
-      NumberOfPages: 100,
-      CoverHard: true,
-      Rating: 10,
-      Collected: false
-    };
+    const loadedElement: IComixItem = this.PrepareNewElement();
     return loadedElement;
   }
 

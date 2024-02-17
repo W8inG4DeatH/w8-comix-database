@@ -12,7 +12,7 @@ export class MainHeaderComponent implements OnInit {
 
   constructor(
     private router: Router,
-    public LoginService: LoginService
+    public loginService: LoginService
   ) { }
 
   ngOnInit(): void {

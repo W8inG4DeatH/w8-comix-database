@@ -18,54 +18,58 @@ export class ListPanelComponent implements OnInit {
 
   constructor(
     private router: Router,
-    public ListDataService: ListDataService
+    public listDataService: ListDataService
   ) { }
 
   ngOnInit(): void {
-    this.InitColumns();
-    this.LoadData();
-    this.ConvertData();
-    this.ConvertDisplayData();
+    this.initColumns();
+    this.loadData();
   }
 
-  InitColumns() {
-    this.columnsKeys = ['Id', 'DisplayName', 'Author', 'Collected', 'NumberOfPages', 'CoverHard', 'Rating'];
-    this.columnsNames = ['Nr', 'Nazwa', 'Autor', 'Mam', 'Strony', 'Twarda', 'Ocena'];
-    this.columnsFlex = [5, 45, 30, 5, 5, 5, 5];
+  initColumns() {
+    this.columnsKeys = ['id', 'displayName', 'author', 'numberOfPages', 'coverHard', 'rating'];
+    this.columnsNames = ['Nr', 'Name', 'Author', 'Pages', 'Hard', 'Rating'];
+    this.columnsFlex = [5, 50, 30, 5, 5, 5];
   }
 
-  LoadData() {
-    this.itemsData = this.ListDataService.GetComixListData();
+  loadData() {
+    this.listDataService.getComixListData().subscribe(data => {
+      this.itemsData = data;
+      this.getOnlyPossesed();
+      this.convertData();
+      this.convertDisplayData();
+    });
   }
 
-  ConvertData() {
+  getOnlyPossesed()
+  {
+    this.itemsData = _.filter(this.itemsData, {collected: true});
+  }
+
+  convertData() {
     _.forEach(this.itemsData, (item, index) => {
-      item.Id = index + 1;
-
-      item.DisplayName = '';
-      item.DisplayName += item.SeriesTitle ? item.SeriesTitle : '';
-      item.DisplayName += item.SeriesSubtitle ? (' - ' + item.SeriesSubtitle) : '';
-      item.DisplayName += item.ComixTitle ? ((item.SeriesTitle ? ': ' : '') + item.ComixTitle) : '';
-
-      item.CoverHard = (item.CoverHard !== undefined) ? item.CoverHard : false;
-      item.Collected = (item.Collected !== undefined) ? item.Collected : false;
+      item.id = index + 1;
+      item.coverHard = (item.coverHard !== undefined) ? item.coverHard : false;
     });
   }
 
-  ConvertDisplayData() {
+  convertDisplayData() {
     _.forEach(this.itemsData, (item) => {
-      item.CoverHard = item.CoverHard ? 'TAK' : '';
-      item.Rating = item.Rating ? (item.Rating + '/10') : '';
-      item.Collected = item.Collected ? 'TAK' : '';
+      item.displayName = '';
+      item.displayName += item.seriesTitle ? item.seriesTitle : '';
+      item.displayName += item.seriesSubtitle ? (' - ' + item.seriesSubtitle) : '';
+      item.displayName += item.comixTitle ? ((item.seriesTitle ? ': ' : '') + item.comixTitle) : '';
+      item.coverHard = item.coverHard ? '+' : '-';
+      item.rating = item.rating ? (item.rating + '/10') : '';
     });
   }
 
-  OnColumnHeaderClick(columnKey: string) {
+  onColumnHeaderClick(columnKey: string) {
     this.itemsData = _.sortBy(this.itemsData, [columnKey]);
-    console.log('OnColumnHeaderClick:', columnKey, this.itemsData);
+    console.log('onColumnHeaderClick:', columnKey, this.itemsData);
   }
 
-  OnItemClick(item: any) {
+  onItemClick(item: any) {
     this.router.navigate(['/edition', item.Id]);
   }
 }

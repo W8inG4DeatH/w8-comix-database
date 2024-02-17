@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IMainMenuElement } from 'src/app/areas/areas.interfaces';
+import { IMainMenuElement } from './main-menu.interfaces';
 
 @Component({
   selector: 'main-menu',
@@ -14,14 +14,14 @@ export class MainMenuComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.InitMainMenu();
+    this.initMainMenu();
   }
 
-  InitMainMenu() {
+  initMainMenu() {
     this.mainMenu = [
       {
-        DisplayName: 'List',
-        RouterLink: '/list'
+        displayName: 'List',
+        routerLink: '/list'
       }
     ]
   }
