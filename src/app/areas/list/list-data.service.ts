@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
 import { IComixItem } from 'src/app/areas/list/list.interfaces';
+import { firstValueFrom } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -11,11 +11,11 @@ export class ListDataService {
 
   constructor(private http: HttpClient) { }
 
-  getComixListData(): Observable<IComixItem[]> {
-    return this.http.get<IComixItem[]>(this.apiUrl);
+  async getComixListData(): Promise<IComixItem[]> {
+    return firstValueFrom(this.http.get<IComixItem[]>(this.apiUrl));
   }
 
-  saveComixListData(comixData: IComixItem[]): Observable<any> {
-    return this.http.post(this.apiUrl, comixData);
+  async saveComixListData(comixData: IComixItem[]): Promise<any> {
+    return firstValueFrom(this.http.post(this.apiUrl, comixData));
   }
 }

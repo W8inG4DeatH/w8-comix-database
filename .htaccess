@@ -1,0 +1,8 @@
+AddHandler application/x-httpd-php74 php
+
+ErrorDocument 404 http://www.googles.com.pl
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.comix.googles.com.pl$ [NC]
+RewriteRule ^(.*)$ http://www.googles.com.pl/comix$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^comix.googles.com.pl$ [NC]
+RewriteRule ^(.*)$ http://www.googles.com.pl/comix$1 [R=301,L]

@@ -33,7 +33,7 @@ export class ListPanelComponent implements OnInit {
   }
 
   loadData() {
-    this.listDataService.getComixListData().subscribe(data => {
+    this.listDataService.getComixListData().then(data => {
       this.itemsData = data;
       this.getOnlyPossesed();
       this.convertData();

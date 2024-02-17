@@ -39,7 +39,7 @@ export class ComixEditorComponent implements OnInit {
   }
 
   loadElementById(id: number): void {
-    this.listDataService.getComixListData().subscribe(data => {
+    this.listDataService.getComixListData().then(data => {
       const foundItem = data.find(item => item.id === id);
       this.element = foundItem !== undefined ? foundItem : this.PrepareNewElement();
     });
