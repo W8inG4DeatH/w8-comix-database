@@ -50,7 +50,6 @@ export class ListPanelComponent implements OnInit {
       this.itemsData = data;
       this.getOnlyPossesedItems();
       this.seriesTitle ? this.getItemsBySeriesTitle() : null;
-      this.convertData();
       this.convertDisplayData();
     });
   }
@@ -61,13 +60,6 @@ export class ListPanelComponent implements OnInit {
 
   getOnlyPossesedItems() {
     this.itemsData = _.filter(this.itemsData, { collected: true });
-  }
-
-  convertData() {
-    _.forEach(this.itemsData, (item, index) => {
-      item.id = index + 1;
-      item.coverHard = (item.coverHard !== undefined) ? item.coverHard : false;
-    });
   }
 
   convertDisplayData() {
@@ -87,6 +79,6 @@ export class ListPanelComponent implements OnInit {
   }
 
   onItemClick(item: any) {
-    this.router.navigate(['/edition', item.Id]);
+    this.router.navigate(['/view', item.id]);
   }
 }

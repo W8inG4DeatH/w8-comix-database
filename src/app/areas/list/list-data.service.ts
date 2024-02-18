@@ -1,3 +1,4 @@
+import * as _ from 'lodash';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { IComixItem } from 'src/app/areas/list/list.interfaces';
@@ -12,7 +13,7 @@ export class ListDataService {
   constructor(private http: HttpClient) { }
 
   async getComixListData(): Promise<IComixItem[]> {
-    return [
+    let comixListData: IComixItem[] = [
       {
         seriesTitle: 'Kajko i Kokosz',
         comixTitle: 'Złoty puchar - część 1',
@@ -20,6 +21,7 @@ export class ListDataService {
         publisher: 'EGMONT Polska',
         publishmentYear: 2017,
         numberOfPages: 40,
+        coverUrlLink: "assets/cover/kajko-i-kokosz-zloty-puchar-cz-1.webp",
         coverHard: false,
         rating: 8,
         collected: true,
@@ -32,6 +34,7 @@ export class ListDataService {
         publisher: 'EGMONT Polska',
         publishmentYear: 2017,
         numberOfPages: 40,
+        coverUrlLink: "assets/cover/kajko-i-kokosz-zloty-puchar-cz-2.webp",
         coverHard: false,
         rating: 8,
         collected: true,
@@ -44,6 +47,7 @@ export class ListDataService {
         publisher: 'EGMONT Polska',
         publishmentYear: 2017,
         numberOfPages: 39,
+        coverUrlLink: "assets/cover/kajko-i-kokosz-zloty-puchar-cz-3.webp",
         coverHard: false,
         rating: 8,
         collected: true,
@@ -63,6 +67,14 @@ export class ListDataService {
         userId: 1
       }
     ]
+
+    _.forEach(comixListData, (item, index) => {
+      item.id = index + 1;
+    });
+
+
+  return comixListData;
+
     // return firstValueFrom(this.http.get<IComixItem[]>(this.apiUrl));
   }
 
