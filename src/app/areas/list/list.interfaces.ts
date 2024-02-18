@@ -1,5 +1,5 @@
 export interface IComixItem {
-  id: number;
+  id?: number;
   comixTitle: string;
   seriesTitle?: string | null;
   seriesSubtitle?: string | null;

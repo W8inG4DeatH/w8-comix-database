@@ -1,4 +1,6 @@
+import * as _ from 'lodash';
 import { Component, OnInit } from '@angular/core';
+import { ListDataService } from 'src/app/areas/list/list-data.service';
 import { IMainMenuElement } from './main-menu.interfaces';
 
 @Component({
@@ -9,21 +11,38 @@ import { IMainMenuElement } from './main-menu.interfaces';
 
 export class MainMenuComponent implements OnInit {
 
-  public mainMenu: Array<IMainMenuElement> = [];
+  public mainMenu: Array<IMainMenuElement> = [
+    {
+      displayName: 'All series',
+      routerLink: '/list/'
+    }
+  ];
 
-  constructor() { }
+  constructor(
+    private listDataService: ListDataService
+  ) { }
 
   ngOnInit(): void {
-    this.initMainMenu();
+    this.loadData();
   }
 
-  initMainMenu() {
-    this.mainMenu = [
-      {
-        displayName: 'List',
-        routerLink: '/list'
-      }
-    ]
+  loadData() {
+    this.listDataService.getComixListData().then(data => {
+      const itemsData = data;
+      const uniqueSeriesTitles = _.compact(_.uniq(_.map(itemsData, 'seriesTitle')));
+      this.initMainMenu(uniqueSeriesTitles);
+    });
+  }
+
+  initMainMenu(uniqueSeriesTitles: string[]) {
+    _.forEach(uniqueSeriesTitles, (menuItem) => {
+      this.mainMenu.push(
+        {
+          displayName: menuItem,
+          routerLink: '/list/' + menuItem
+        }
+      )
+    });
   }
 
 }

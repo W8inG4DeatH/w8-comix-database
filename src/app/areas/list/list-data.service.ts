@@ -12,10 +12,61 @@ export class ListDataService {
   constructor(private http: HttpClient) { }
 
   async getComixListData(): Promise<IComixItem[]> {
-    return firstValueFrom(this.http.get<IComixItem[]>(this.apiUrl));
+    return [
+      {
+        seriesTitle: 'Kajko i Kokosz',
+        comixTitle: 'Złoty puchar - część 1',
+        author: 'Janusz Christa',
+        publisher: 'EGMONT Polska',
+        publishmentYear: 2017,
+        numberOfPages: 40,
+        coverHard: false,
+        rating: 8,
+        collected: true,
+        userId: 1
+      },
+      {
+        seriesTitle: 'Kajko i Kokosz',
+        comixTitle: 'Złoty puchar - część 2',
+        author: 'Janusz Christa',
+        publisher: 'EGMONT Polska',
+        publishmentYear: 2017,
+        numberOfPages: 40,
+        coverHard: false,
+        rating: 8,
+        collected: true,
+        userId: 1
+      },
+      {
+        seriesTitle: 'Kajko i Kokosz',
+        comixTitle: 'Złoty puchar - część 3',
+        author: 'Janusz Christa',
+        publisher: 'EGMONT Polska',
+        publishmentYear: 2017,
+        numberOfPages: 39,
+        coverHard: false,
+        rating: 8,
+        collected: true,
+        userId: 1
+      },
+      {
+        seriesTitle: 'Thorgal',
+        'seriesSubtitle': 'Louve - tom 1',
+        comixTitle: 'Raissa',
+        author: 'Roman Surżenko, Pennetier Yann',
+        publisher: 'EGMONT Polska',
+        publishmentYear: 2018,
+        numberOfPages: 46,
+        coverHard: true,
+        rating: 7,
+        collected: true,
+        userId: 1
+      }
+    ]
+    // return firstValueFrom(this.http.get<IComixItem[]>(this.apiUrl));
   }
 
-  async saveComixListData(comixData: IComixItem[]): Promise<any> {
-    return firstValueFrom(this.http.post(this.apiUrl, comixData));
-  }
+  // async saveComixListData(comixData: IComixItem[]): Promise<any> {
+  //   return firstValueFrom(this.http.post(this.apiUrl, comixData));
+  // }
 }

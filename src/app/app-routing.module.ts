@@ -7,6 +7,7 @@ import { EditionGuardGuard } from 'src/app/areas/edition/edition-guard.guard';
 const routes: Routes = [
     { path: '', component: ListPanelComponent },
     { path: 'list', component: ListPanelComponent },
+    { path: 'list/:seriesTitle', component: ListPanelComponent },
     { path: 'edition/:id', component: ComixEditorComponent, canActivate: [EditionGuardGuard] }
 ];
 

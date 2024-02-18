@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import * as _ from 'lodash';
+import { Component, Input, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { Router } from '@angular/router';
 import { ListDataService } from 'src/app/areas/list/list-data.service';
-import * as _ from 'lodash';
 
 @Component({
   selector: 'list-panel',
@@ -11,6 +12,9 @@ import * as _ from 'lodash';
 
 export class ListPanelComponent implements OnInit {
 
+  @Input()
+  public seriesTitle: string | null = null;
+
   public itemsData: Array<any> = [];
   public columnsKeys: Array<string> = [];
   public columnsNames: Array<string> = [];
@@ -18,12 +22,13 @@ export class ListPanelComponent implements OnInit {
 
   constructor(
     private router: Router,
-    public listDataService: ListDataService
+    private activatedRoute: ActivatedRoute,
+    private listDataService: ListDataService
   ) { }
 
   ngOnInit(): void {
     this.initColumns();
-    this.loadData();
+    this.getSeriesTitleParameter();
   }
 
   initColumns() {
@@ -32,18 +37,30 @@ export class ListPanelComponent implements OnInit {
     this.columnsFlex = [5, 50, 30, 5, 5, 5];
   }
 
+  getSeriesTitleParameter(): void {
+    this.activatedRoute.paramMap.subscribe(params => {
+      this.seriesTitle = params.get('seriesTitle');
+      this.loadData();
+    });
+  }
+
   loadData() {
+    // console.log( 'loadData:', this.seriesTitle );
     this.listDataService.getComixListData().then(data => {
       this.itemsData = data;
-      this.getOnlyPossesed();
+      this.getOnlyPossesedItems();
+      this.seriesTitle ? this.getItemsBySeriesTitle() : null;
       this.convertData();
       this.convertDisplayData();
     });
   }
 
-  getOnlyPossesed()
-  {
-    this.itemsData = _.filter(this.itemsData, {collected: true});
+  getItemsBySeriesTitle() {
+    this.itemsData = _.filter(this.itemsData, { seriesTitle: this.seriesTitle });
+  }
+
+  getOnlyPossesedItems() {
+    this.itemsData = _.filter(this.itemsData, { collected: true });
   }
 
   convertData() {
@@ -66,7 +83,7 @@ export class ListPanelComponent implements OnInit {
 
   onColumnHeaderClick(columnKey: string) {
     this.itemsData = _.sortBy(this.itemsData, [columnKey]);
-    console.log('onColumnHeaderClick:', columnKey, this.itemsData);
+    // console.log('onColumnHeaderClick:', columnKey, this.itemsData);
   }
 
   onItemClick(item: any) {

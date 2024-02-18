@@ -23,10 +23,10 @@ export class ComixEditorComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.getElementById();
+    this.getIdParameter();
   }
 
-  getElementById(): void {
+  getIdParameter(): void {
     this.activatedRoute.paramMap.subscribe(params => {
       const idParam = params.get('id');
       const id = idParam !== null ? Number(idParam) : null;
