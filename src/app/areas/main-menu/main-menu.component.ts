@@ -13,7 +13,7 @@ export class MainMenuComponent implements OnInit {
 
   public mainMenu: Array<IMainMenuElement> = [
     {
-      displayName: 'All series',
+      displayName: 'Wszystkie',
       routerLink: '/list/'
     }
   ];

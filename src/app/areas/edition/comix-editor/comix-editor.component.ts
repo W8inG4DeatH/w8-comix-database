@@ -5,7 +5,7 @@ import { ListDataService } from 'src/app/areas/list/list-data.service';
 
 @Component({
   selector: 'comix-editor',
-  templateUrl: './comix-editor-view.component.html',
+  templateUrl: './comix-editor.component.html',
   styleUrls: ['./comix-editor.component.scss']
 })
 

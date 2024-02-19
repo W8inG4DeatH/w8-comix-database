@@ -1,0 +1,64 @@
+<div class="content-container" fxLayout="row" fxLayoutAlign="center">
+
+  <div class="column" fxLayout="column" fxFlex="50">
+
+    <div *ngIf="element.seriesTitle" class="property-container" fxLayout="column">
+      <div class="title">Tytuł serii:</div>
+      <div class="desc">{{element.seriesTitle}}</div>
+    </div>
+
+    <div *ngIf="element.seriesSubtitle" class="property-container" fxLayout="column">
+      <div class="title">Podtytuł serii:</div>
+      <div class="desc">{{element.seriesSubtitle}}</div>
+    </div>
+
+    <div *ngIf="element.comixTitle" class="property-container" fxLayout="column">
+      <div class="title">Tytuł:</div>
+      <div class="desc">{{element.comixTitle}}</div>
+    </div>
+
+    <div *ngIf="element.author" class="property-container" fxLayout="column">
+      <div class="title">Autor:</div>
+      <div class="desc">{{element.author}}</div>
+    </div>
+
+    <div *ngIf="element.publisher" class="property-container" fxLayout="column">
+      <div class="title">Wydawca:</div>
+      <div class="desc">{{element.publisher}}</div>
+    </div>
+
+    <div *ngIf="element.publishmentYear" class="property-container" fxLayout="column">
+      <div class="title">Rok wydania:</div>
+      <div class="desc">{{element.publishmentYear}}</div>
+    </div>
+
+    <div *ngIf="element.numberOfPages" class="property-container" fxLayout="column">
+      <div class="title">Liczba stron:</div>
+      <div class="desc">{{element.numberOfPages}}</div>
+    </div>
+
+    <div *ngIf="(element.coverHard === true) || (element.coverHard === false)" class="property-container" fxLayout="column">
+      <div class="title">Twarda okładka:</div>
+      <div *ngIf="(element.coverHard === true)" class="desc">TAK</div>
+      <div *ngIf="(element.coverHard === false)" class="desc">NIE</div>
+    </div>
+
+    <div *ngIf="element.rating" class="property-container" fxLayout="column">
+      <div class="title">Ocena:</div>
+      <div class="desc">{{element.rating}}/10</div>
+    </div>
+
+    <div *ngIf="(element.collected === true)" class="property-container" fxLayout="column">
+      <div class="title">W kolekcji:</div>
+      <div class="desc">TAK</div>
+    </div>
+
+  </div>
+
+  <div class="column second-column" fxLayout="column" fxFlex="50">
+    <div class="cover-container" fxLayout="row" fxLayoutAlign="center">
+      <img *ngIf="element.coverUrlLink" [src]="element.coverUrlLink" class="cover-img" alt="Cover Image">
+    </div>
+  </div>
+
+</div>

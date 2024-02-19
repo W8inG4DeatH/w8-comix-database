@@ -1,8 +1,17 @@
+@import 'src/assets/scss/colors.scss';
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
 .column {
   padding: 20px;
 
   &.second-column {
     border-left: 1px solid #ddd;
+    position: relative;
   }
 }
 
@@ -15,6 +24,19 @@
 
   .desc {
     font-weight: bold;
+  }
+}
+
+.cover-container {
+  width: 100%;
+  padding: 0 10%;
+
+  .cover-img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    object-fit: contain;
+    border: 10px solid $blue;
   }
 }
 

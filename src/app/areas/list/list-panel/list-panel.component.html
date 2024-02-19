@@ -2,7 +2,7 @@
 
     <div class="header" fxLayout="row" fxFlex>
 
-        <div *ngFor="let columnKey of columnsKeys; let cIndex = index" (click)="onColumnHeaderClick(columnKey)" class="header-container" fxLayout="row" fxFlex="{{columnsFlex[cIndex]}}">
+        <div *ngFor="let columnKey of columnsKeys; let cIndex = index" (click)="onColumnHeaderClick(columnKey)" class="header-container single-line-to-3-dots-wrap" fxLayout="row" fxFlex="{{columnsFlex[cIndex]}}">
             {{ columnsNames[cIndex] }}
         </div>
 
@@ -10,7 +10,7 @@
 
     <div *ngFor="let item of itemsData; let iIndex = index" (click)="onItemClick(item)" class="content-item-container" fxLayout="row" fxFlex>
 
-        <div *ngFor="let columnKey of columnsKeys; let cIndex = index" class="content-item" fxLayout="row" fxFlex="{{columnsFlex[cIndex]}}">
+        <div *ngFor="let columnKey of columnsKeys; let cIndex = index" class="content-item single-line-to-3-dots-wrap" fxLayout="row" fxFlex="{{columnsFlex[cIndex]}}">
             {{ item[columnKey] }}
         </div>
 

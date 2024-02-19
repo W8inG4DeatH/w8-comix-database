@@ -1,294 +1,342 @@
 [
   {
+    "id": 101,
     "seriesTitle": "Kajko i Kokosz",
     "comixTitle": "Złoty puchar - część 1",
     "author": "Janusz Christa",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2017,
     "numberOfPages": 40,
-    "coverUrlLink": "assets/cover/kajko-i-kokosz-zloty-puchar-cz-1.webp",
+    "coverUrlLink": "assets/cover/kajko-i-kokosz/kajko-i-kokosz-zloty-puchar-cz-1.webp",
     "coverHard": false,
     "rating": 8,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 102,
     "seriesTitle": "Kajko i Kokosz",
     "comixTitle": "Złoty puchar - część 2",
     "author": "Janusz Christa",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2017,
     "numberOfPages": 40,
+    "coverUrlLink": "assets/cover/kajko-i-kokosz/kajko-i-kokosz-zloty-puchar-cz-2.webp",
     "coverHard": false,
     "rating": 8,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 103,
     "seriesTitle": "Kajko i Kokosz",
     "comixTitle": "Złoty puchar - część 3",
     "author": "Janusz Christa",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2017,
     "numberOfPages": 39,
+    "coverUrlLink": "assets/cover/kajko-i-kokosz/kajko-i-kokosz-zloty-puchar-cz-3.webp",
     "coverHard": false,
     "rating": 8,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 104,
     "seriesTitle": "Kajko i Kokosz",
     "comixTitle": "Woje Mirmila - część 1",
     "author": "Janusz Christa",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2017,
     "numberOfPages": 40,
+    "coverUrlLink": "assets/cover/kajko-i-kokosz/kajko-i-kokosz-woje-mirmila-cz-1.webp",
     "coverHard": false,
     "rating": 8,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 105,
     "seriesTitle": "Kajko i Kokosz",
     "comixTitle": "Woje Mirmila - część 2",
     "author": "Janusz Christa",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2017,
     "numberOfPages": 40,
+    "coverUrlLink": "assets/cover/kajko-i-kokosz/kajko-i-kokosz-woje-mirmila-cz-2.webp",
     "coverHard": false,
     "rating": 8,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 106,
     "seriesTitle": "Kajko i Kokosz",
     "comixTitle": "Woje Mirmila - część 3",
     "author": "Janusz Christa",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2017,
     "numberOfPages": 37,
+    "coverUrlLink": "assets/cover/kajko-i-kokosz/kajko-i-kokosz-woje-mirmila-cz-3.webp",
     "coverHard": false,
     "rating": 8,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 107,
     "seriesTitle": "Kajko i Kokosz",
     "comixTitle": "Szranki i konkury - część 1",
     "author": "Janusz Christa",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2017,
     "numberOfPages": 55,
+    "coverUrlLink": "assets/cover/kajko-i-kokosz/kajko-i-kokosz-szranki-i-konkury-cz-1.webp",
     "coverHard": false,
     "rating": 9,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 108,
     "seriesTitle": "Kajko i Kokosz",
     "comixTitle": "Szranki i konkury - część 2",
     "author": "Janusz Christa",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2017,
     "numberOfPages": 55,
+    "coverUrlLink": "assets/cover/kajko-i-kokosz/kajko-i-kokosz-szranki-i-konkury-cz-2.webp",
     "coverHard": false,
     "rating": 9,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 109,
     "seriesTitle": "Kajko i Kokosz",
     "comixTitle": "Szranki i konkury - część 3",
     "author": "Janusz Christa",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2017,
     "numberOfPages": 55,
+    "coverUrlLink": "assets/cover/kajko-i-kokosz/kajko-i-kokosz-szranki-i-konkury-cz-3.jpg",
     "coverHard": false,
     "rating": 9,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 110,
     "seriesTitle": "Kajko i Kokosz",
     "comixTitle": "Szkoła latania",
     "author": "Janusz Christa",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2017,
     "numberOfPages": 35,
+    "coverUrlLink": "assets/cover/kajko-i-kokosz/kajko-i-kokosz-szkola-latania.webp",
     "coverHard": false,
     "rating": 8,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 111,
     "seriesTitle": "Kajko i Kokosz",
     "comixTitle": "Wielki turniej",
     "author": "Janusz Christa",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2017,
     "numberOfPages": 35,
+    "coverUrlLink": "assets/cover/kajko-i-kokosz/kajko-i-kokosz-wielki-turniej.webp",
     "coverHard": false,
     "rating": 8,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 112,
     "seriesTitle": "Kajko i Kokosz",
     "comixTitle": "Na wczasach",
     "author": "Janusz Christa",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2017,
     "numberOfPages": 35,
+    "coverUrlLink": "assets/cover/kajko-i-kokosz/kajko-i-kokosz-na-wczasach.webp",
     "coverHard": false,
     "rating": 8,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 113,
     "seriesTitle": "Kajko i Kokosz",
     "comixTitle": "Zamach na Milusia",
     "author": "Janusz Christa",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2017,
     "numberOfPages": 38,
+    "coverUrlLink": "assets/cover/kajko-i-kokosz/kajko-i-kokosz-zamach-na-milusia.webp",
     "coverHard": false,
     "rating": 9,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 114,
     "seriesTitle": "Kajko i Kokosz",
     "comixTitle": "Skarby Mirmiła",
     "author": "Janusz Christa",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2017,
     "numberOfPages": 43,
+    "coverUrlLink": "assets/cover/kajko-i-kokosz/kajko-i-kokosz-skarby-mirmila.webp",
     "coverHard": false,
     "rating": 8,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 115,
     "seriesTitle": "Kajko i Kokosz",
     "comixTitle": "Cudowny lek",
     "author": "Janusz Christa",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2017,
     "numberOfPages": 43,
+    "coverUrlLink": "assets/cover/kajko-i-kokosz/kajko-i-kokosz-cudowny-lek.webp",
     "coverHard": false,
     "rating": 7,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 116,
     "seriesTitle": "Kajko i Kokosz",
     "comixTitle": "Festiwal czarownic",
     "author": "Janusz Christa",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2017,
     "numberOfPages": 40,
+    "coverUrlLink": "assets/cover/kajko-i-kokosz/kajko-i-kokosz-festiwal-czarownic.webp",
     "coverHard": false,
     "rating": 7,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 117,
     "seriesTitle": "Kajko i Kokosz",
     "comixTitle": "Dzień śmiechały",
     "author": "Janusz Christa",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2017,
     "numberOfPages": 40,
+    "coverUrlLink": "assets/cover/kajko-i-kokosz/kajko-i-kokosz-dzien-smiechaly.webp",
     "coverHard": false,
     "rating": 9,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 118,
     "seriesTitle": "Kajko i Kokosz",
     "comixTitle": "W krainie borostworów",
     "author": "Janusz Christa",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2017,
     "numberOfPages": 48,
+    "coverUrlLink": "assets/cover/kajko-i-kokosz/kajko-i-kokosz-w-krainie-borostworow.webp",
     "coverHard": false,
     "rating": 7,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 119,
     "seriesTitle": "Kajko i Kokosz",
     "comixTitle": "Mirmił w opałach",
     "author": "Janusz Christa",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2017,
     "numberOfPages": 47,
+    "coverUrlLink": "assets/cover/kajko-i-kokosz/kajko-i-kokosz-mirmil-w-opalach.webp",
     "coverHard": false,
     "rating": 7,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 120,
     "seriesTitle": "Kajko i Kokosz",
     "comixTitle": "Urodziny Milusia",
     "author": "Janusz Christa",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2021,
     "numberOfPages": 30,
+    "coverUrlLink": "assets/cover/kajko-i-kokosz/kajko-i-kokosz-urodziny-milusia.webp",
     "coverHard": false,
     "rating": 7,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 121,
     "seriesTitle": "Kajko i Kokosz",
     "comixTitle": "Obłęd Hegemona",
     "author": "Różni wg Janusza Christy",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2021,
     "numberOfPages": 36,
+    "coverUrlLink": "assets/cover/kajko-i-kokosz/kajko-i-kokosz-obled-hegemona.webp",
     "coverHard": false,
     "rating": 3,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 122,
     "seriesTitle": "Kajko i Kokosz",
     "comixTitle": "Łamignat straszliwy",
     "author": "Różni wg Janusza Christy",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2021,
     "numberOfPages": 38,
+    "coverUrlLink": "assets/cover/kajko-i-kokosz/kajko-i-kokosz-lamignat-straszliwy.webp",
     "coverHard": false,
     "rating": 4,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 123,
     "seriesTitle": "Kajko i Kokosz",
     "comixTitle": "Królewska Konna",
     "author": "Maciej Kur, Sławomir Kiełbus, Piotr Bednarczyk",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2021,
     "numberOfPages": 44,
+    "coverUrlLink": "assets/cover/kajko-i-kokosz/kajko-i-kokosz-krolewska-konna.webp",
     "coverHard": false,
     "rating": 5,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 124,
     "seriesTitle": "Kajko i Kokosz",
     "comixTitle": "Zaćmienie i zmierzchu",
     "author": "Maciej Kur, Sławomir Kiełbus, Piotr Bednarczyk",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2021,
     "numberOfPages": 46,
+    "coverUrlLink": "assets/cover/kajko-i-kokosz/kajko-i-kokosz-zacmienie-zmierzchu.webp",
     "coverHard": false,
     "rating": 6,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 201,
     "seriesTitle": "Kajtek i Koko",
     "seriesSubtitle": "W kosmosie",
     "comixTitle": "Zabłąkana rakieta",
@@ -296,12 +344,14 @@
     "publisher": "EGMONT Polska",
     "publishmentYear": 2018,
     "numberOfPages": 92,
+    "coverUrlLink": "assets/cover/kajtek-i-koko/kajtek-i-koko-zablakana-rakieta.webp",
     "coverHard": false,
     "rating": 4,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 202,
     "seriesTitle": "Kajtek i Koko",
     "seriesSubtitle": "W kosmosie",
     "comixTitle": "Twierdza tyrana",
@@ -309,12 +359,14 @@
     "publisher": "EGMONT Polska",
     "publishmentYear": 2018,
     "numberOfPages": 92,
+    "coverUrlLink": "assets/cover/kajtek-i-koko/kajtek-i-koko-twierdza-tyrana.webp",
     "coverHard": false,
     "rating": 4,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 203,
     "seriesTitle": "Kajtek i Koko",
     "seriesSubtitle": "W kosmosie",
     "comixTitle": "Przyjaciel Jol",
@@ -322,12 +374,14 @@
     "publisher": "EGMONT Polska",
     "publishmentYear": 2018,
     "numberOfPages": 92,
+    "coverUrlLink": "assets/cover/kajtek-i-koko/kajtek-i-koko-przyjaciel-jol.webp",
     "coverHard": false,
     "rating": 4,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 204,
     "seriesTitle": "Kajtek i Koko",
     "seriesSubtitle": "W kosmosie",
     "comixTitle": "Planeta automatów",
@@ -335,12 +389,14 @@
     "publisher": "EGMONT Polska",
     "publishmentYear": 2020,
     "numberOfPages": 92,
+    "coverUrlLink": "assets/cover/kajtek-i-koko/kajtek-i-koko-planeta-automatow.webp",
     "coverHard": false,
     "rating": 5,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 205,
     "seriesTitle": "Kajtek i Koko",
     "seriesSubtitle": "W kosmosie",
     "comixTitle": "Obce świadomości",
@@ -348,12 +404,14 @@
     "publisher": "EGMONT Polska",
     "publishmentYear": 2020,
     "numberOfPages": 92,
+    "coverUrlLink": "assets/cover/kajtek-i-koko/kajtek-i-koko-obce-swiadomosci.webp",
     "coverHard": false,
     "rating": 5,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 206,
     "seriesTitle": "Kajtek i Koko",
     "seriesSubtitle": "W kosmosie",
     "comixTitle": "Dwór Apodyktusa",
@@ -361,12 +419,14 @@
     "publisher": "EGMONT Polska",
     "publishmentYear": 2020,
     "numberOfPages": 92,
+    "coverUrlLink": "assets/cover/kajtek-i-koko/kajtek-i-koko-dwor-apodyktusa.webp",
     "coverHard": false,
     "rating": 5,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 207,
     "seriesTitle": "Kajtek i Koko",
     "seriesSubtitle": "W kosmosie",
     "comixTitle": "Bogini moczarów",
@@ -374,12 +434,14 @@
     "publisher": "EGMONT Polska",
     "publishmentYear": 2020,
     "numberOfPages": 92,
+    "coverUrlLink": "assets/cover/kajtek-i-koko/kajtek-i-koko-bogini-moczarow.webp",
     "coverHard": false,
     "rating": 5,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 301,
     "seriesTitle": "Thorgal",
     "seriesSubtitle": "Louve - tom 1",
     "comixTitle": "Raissa",
@@ -387,12 +449,14 @@
     "publisher": "EGMONT Polska",
     "publishmentYear": 2018,
     "numberOfPages": 46,
+    "coverUrlLink": "assets/cover/thorgal-louve/thorgal-louve-01-raissa.webp",
     "coverHard": true,
     "rating": 7,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 302,
     "seriesTitle": "Thorgal",
     "seriesSubtitle": "Louve - tom 2",
     "comixTitle": "Dłoń boga Tyra",
@@ -400,11 +464,13 @@
     "publisher": "EGMONT Polska",
     "publishmentYear": 2018,
     "numberOfPages": 46,
+    "coverUrlLink": "assets/cover/thorgal-louve/thorgal-louve-02-dlon-boga-tyra.webp",
     "coverHard": true,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 303,
     "seriesTitle": "Thorgal",
     "seriesSubtitle": "Louve - tom 3",
     "comixTitle": "Królestwo chaosu",
@@ -412,11 +478,13 @@
     "publisher": "EGMONT Polska",
     "publishmentYear": 2013,
     "numberOfPages": 46,
+    "coverUrlLink": "assets/cover/thorgal-louve/thorgal-louve-03-krolestwo-chaosu.jpg",
     "coverHard": true,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 304,
     "seriesTitle": "Thorgal",
     "seriesSubtitle": "Louve - tom 4",
     "comixTitle": "Crow",
@@ -424,11 +492,13 @@
     "publisher": "EGMONT Polska",
     "publishmentYear": 2014,
     "numberOfPages": 46,
+    "coverUrlLink": "assets/cover/thorgal-louve/thorgal-louve-04-crow.jpg",
     "coverHard": true,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 305,
     "seriesTitle": "Thorgal",
     "seriesSubtitle": "Louve - tom 5",
     "comixTitle": "Skald",
@@ -436,11 +506,13 @@
     "publisher": "EGMONT Polska",
     "publishmentYear": 2015,
     "numberOfPages": 46,
+    "coverUrlLink": "assets/cover/thorgal-louve/thorgal-louve-05-skald.jpg",
     "coverHard": true,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 306,
     "seriesTitle": "Thorgal",
     "seriesSubtitle": "Louve - tom 6",
     "comixTitle": "Królowa czarnych elfów",
@@ -448,11 +520,13 @@
     "publisher": "EGMONT Polska",
     "publishmentYear": 2018,
     "numberOfPages": 46,
+    "coverUrlLink": "assets/cover/thorgal-louve/thorgal-louve-06-krolowa-czarnych-elfow.jpg",
     "coverHard": true,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 307,
     "seriesTitle": "Thorgal",
     "seriesSubtitle": "Louve - tom 7",
     "comixTitle": "Nidhogg",
@@ -460,11 +534,13 @@
     "publisher": "EGMONT Polska",
     "publishmentYear": 2020,
     "numberOfPages": 46,
+    "coverUrlLink": "assets/cover/thorgal-louve/thorgal-louve-07-nidhogg.jpg",
     "coverHard": true,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 311,
     "seriesTitle": "Thorgal",
     "seriesSubtitle": "Młodzieńcze lata - tom 1",
     "comixTitle": "Trzy siostry Minkelsonn",
@@ -472,12 +548,14 @@
     "publisher": "EGMONT Polska",
     "publishmentYear": 2017,
     "numberOfPages": 46,
+    "coverUrlLink": "assets/cover/thorgal-mlodziencze-lata/thorgal-mlodziencze-lata-01-trzy-siostry-minkelsonn.jpg",
     "coverHard": true,
     "rating": 7,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 312,
     "seriesTitle": "Thorgal",
     "seriesSubtitle": "Młodzieńcze lata - tom 2",
     "comixTitle": "Oko Odyna",
@@ -485,12 +563,14 @@
     "publisher": "EGMONT Polska",
     "publishmentYear": 2014,
     "numberOfPages": 46,
+    "coverUrlLink": "assets/cover/thorgal-mlodziencze-lata/thorgal-mlodziencze-lata-02-oko-odyna.webp",
     "coverHard": true,
     "rating": 6,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 313,
     "seriesTitle": "Thorgal",
     "seriesSubtitle": "Młodzieńcze lata - tom 3",
     "comixTitle": "Runa",
@@ -498,12 +578,14 @@
     "publisher": "EGMONT Polska",
     "publishmentYear": 2020,
     "numberOfPages": 46,
+    "coverUrlLink": "assets/cover/thorgal-mlodziencze-lata/thorgal-mlodziencze-lata-03-runa.webp",
     "coverHard": true,
     "rating": 7,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 314,
     "seriesTitle": "Thorgal",
     "seriesSubtitle": "Młodzieńcze lata - tom 4",
     "comixTitle": "Berserkerowie",
@@ -511,12 +593,14 @@
     "publisher": "EGMONT Polska",
     "publishmentYear": 2018,
     "numberOfPages": 46,
+    "coverUrlLink": "assets/cover/thorgal-mlodziencze-lata/thorgal-mlodziencze-lata-04-berserkerowie.jpg",
     "coverHard": true,
     "rating": 6,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 315,
     "seriesTitle": "Thorgal",
     "seriesSubtitle": "Młodzieńcze lata - tom 5",
     "comixTitle": "Slivia",
@@ -524,12 +608,14 @@
     "publisher": "EGMONT Polska",
     "publishmentYear": 2019,
     "numberOfPages": 46,
+    "coverUrlLink": "assets/cover/thorgal-mlodziencze-lata/thorgal-mlodziencze-lata-05-slivia.jpg",
     "coverHard": true,
     "rating": 7,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 316,
     "seriesTitle": "Thorgal",
     "seriesSubtitle": "Młodzieńcze lata - tom 6",
     "comixTitle": "Lodowy drakkar",
@@ -537,12 +623,14 @@
     "publisher": "EGMONT Polska",
     "publishmentYear": 2018,
     "numberOfPages": 46,
+    "coverUrlLink": "assets/cover/thorgal-mlodziencze-lata/thorgal-mlodziencze-lata-06-lodowy-drakkar.jpg",
     "coverHard": true,
     "rating": 7,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 317,
     "seriesTitle": "Thorgal",
     "seriesSubtitle": "Młodzieńcze lata - tom 7",
     "comixTitle": "Sinozęby",
@@ -550,12 +638,14 @@
     "publisher": "EGMONT Polska",
     "publishmentYear": 2019,
     "numberOfPages": 46,
+    "coverUrlLink": "assets/cover/thorgal-mlodziencze-lata/thorgal-mlodziencze-lata-07-sinozeby.webp",
     "coverHard": true,
     "rating": 6,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 318,
     "seriesTitle": "Thorgal",
     "seriesSubtitle": "Młodzieńcze lata - tom 8",
     "comixTitle": "Bękarty",
@@ -563,12 +653,14 @@
     "publisher": "EGMONT Polska",
     "publishmentYear": 2020,
     "numberOfPages": 46,
+    "coverUrlLink": "assets/cover/thorgal-mlodziencze-lata/thorgal-mlodziencze-lata-08-bekarty.webp",
     "coverHard": true,
     "rating": 7,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 319,
     "seriesTitle": "Thorgal",
     "seriesSubtitle": "Młodzieńcze lata - tom 9",
     "comixTitle": "Łzy Hel",
@@ -576,12 +668,14 @@
     "publisher": "EGMONT Polska",
     "publishmentYear": 2021,
     "numberOfPages": 46,
+    "coverUrlLink": "assets/cover/thorgal-mlodziencze-lata/thorgal-mlodziencze-lata-09-lzy-hel.webp",
     "coverHard": true,
     "rating": 6,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 401,
     "seriesTitle": "Asteriks",
     "comixTitle": "Przygody Gala Asteriksa",
     "author": "Rene Goscinny, Albert Uderzo",
@@ -589,6 +683,7 @@
     "userId": 1
   },
   {
+    "id": 402,
     "seriesTitle": "Asteriks",
     "comixTitle": "Złoty sierp",
     "author": "Rene Goscinny, Albert Uderzo",
@@ -596,6 +691,7 @@
     "userId": 1
   },
   {
+    "id": 403,
     "seriesTitle": "Asteriks",
     "comixTitle": "Asteriks i Goci",
     "author": "Rene Goscinny, Albert Uderzo",
@@ -603,6 +699,7 @@
     "userId": 1
   },
   {
+    "id": 404,
     "seriesTitle": "Asteriks",
     "comixTitle": "Asteriks gladiator",
     "author": "Rene Goscinny, Albert Uderzo",
@@ -610,6 +707,7 @@
     "userId": 1
   },
   {
+    "id": 405,
     "seriesTitle": "Asteriks",
     "comixTitle": "Wyprawa dookoła Galii",
     "author": "Rene Goscinny, Albert Uderzo",
@@ -617,6 +715,7 @@
     "userId": 1
   },
   {
+    "id": 406,
     "seriesTitle": "Asteriks",
     "comixTitle": "Asteriks i Kleopatra",
     "author": "Rene Goscinny, Albert Uderzo",
@@ -624,17 +723,21 @@
     "userId": 1
   },
   {
+    "id": 407,
     "seriesTitle": "Asteriks",
     "comixTitle": "Walka wodzów",
     "author": "Rene Goscinny, Albert Uderzo",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2020,
     "numberOfPages": 44,
+    "coverUrlLink": "assets/cover/asteriks/asteriks-walka-wodzow.webp",
     "coverHard": false,
     "rating": 7,
-    "collected": true
+    "collected": true,
+    "userId": 1
   },
   {
+    "id": 408,
     "seriesTitle": "Asteriks",
     "comixTitle": "Asteriks u Brytów",
     "author": "Rene Goscinny, Albert Uderzo",
@@ -642,18 +745,21 @@
     "userId": 1
   },
   {
+    "id": 409,
     "seriesTitle": "Asteriks",
     "comixTitle": "Asteriks i Normanowie",
     "author": "Rene Goscinny, Albert Uderzo",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2020,
     "numberOfPages": 44,
+    "coverUrlLink": "assets/cover/asteriks/asteriks-i-normanowie.webp",
     "coverHard": false,
     "rating": 7,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 410,
     "seriesTitle": "Asteriks",
     "comixTitle": "Asteriks legionista",
     "author": "Rene Goscinny, Albert Uderzo",
@@ -661,6 +767,7 @@
     "userId": 1
   },
   {
+    "id": 411,
     "seriesTitle": "Asteriks",
     "comixTitle": "Tarcza Arwernów",
     "author": "Rene Goscinny, Albert Uderzo",
@@ -668,6 +775,7 @@
     "userId": 1
   },
   {
+    "id": 412,
     "seriesTitle": "Asteriks",
     "comixTitle": "Asteriks na igrzyskach olimpijskich",
     "author": "Rene Goscinny, Albert Uderzo",
@@ -675,6 +783,7 @@
     "userId": 1
   },
   {
+    "id": 413,
     "seriesTitle": "Asteriks",
     "comixTitle": "Asteriks i kociołek",
     "author": "Rene Goscinny, Albert Uderzo",
@@ -682,6 +791,7 @@
     "userId": 1
   },
   {
+    "id": 414,
     "seriesTitle": "Asteriks",
     "comixTitle": "Asteriks w Hiszpanii",
     "author": "Rene Goscinny, Albert Uderzo",
@@ -689,18 +799,21 @@
     "userId": 1
   },
   {
+    "id": 415,
     "seriesTitle": "Asteriks",
     "comixTitle": "Niezgoda",
-    "author": "Albert Uderzo",
+    "author": "Rene Goscinny, Albert Uderzo",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2012,
     "numberOfPages": 44,
+    "coverUrlLink": "assets/cover/asteriks/asteriks-niezgoda.webp",
     "coverHard": false,
     "rating": 7,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 416,
     "seriesTitle": "Asteriks",
     "comixTitle": "Asteriks u Helwetów",
     "author": "Rene Goscinny, Albert Uderzo",
@@ -708,6 +821,7 @@
     "userId": 1
   },
   {
+    "id": 417,
     "seriesTitle": "Asteriks",
     "comixTitle": "Osiedle bogów",
     "author": "Rene Goscinny, Albert Uderzo",
@@ -715,6 +829,7 @@
     "userId": 1
   },
   {
+    "id": 418,
     "seriesTitle": "Asteriks",
     "comixTitle": "Laury Cezara",
     "author": "Rene Goscinny, Albert Uderzo",
@@ -722,6 +837,7 @@
     "userId": 1
   },
   {
+    "id": 419,
     "seriesTitle": "Asteriks",
     "comixTitle": "Wróżbita",
     "author": "Rene Goscinny, Albert Uderzo",
@@ -729,6 +845,7 @@
     "userId": 1
   },
   {
+    "id": 420,
     "seriesTitle": "Asteriks",
     "comixTitle": "Asteriks na Korsyce",
     "author": "Rene Goscinny, Albert Uderzo",
@@ -736,6 +853,7 @@
     "userId": 1
   },
   {
+    "id": 421,
     "seriesTitle": "Asteriks",
     "comixTitle": "Podarunek Cezara",
     "author": "Rene Goscinny, Albert Uderzo",
@@ -743,78 +861,91 @@
     "userId": 1
   },
   {
+    "id": 422,
     "seriesTitle": "Asteriks",
     "comixTitle": "Wielka przeprawa",
     "author": "Rene Goscinny, Albert Uderzo",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2021,
     "numberOfPages": 45,
+    "coverUrlLink": "assets/cover/asteriks/asteriks-wielka-przeprawa.webp",
     "coverHard": false,
     "rating": 7,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 423,
     "seriesTitle": "Asteriks",
     "comixTitle": "Obeliks i spółka",
     "author": "Rene Goscinny, Albert Uderzo",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2021,
     "numberOfPages": 45,
+    "coverUrlLink": "assets/cover/asteriks/asteriks-obeliks-i-spolka.webp",
     "coverHard": false,
     "rating": 7,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 424,
     "seriesTitle": "Asteriks",
     "comixTitle": "Asteriks u Belgów",
     "author": "Rene Goscinny, Albert Uderzo",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2013,
     "numberOfPages": 44,
+    "coverUrlLink": "assets/cover/asteriks/asteriks-u-belgow.webp",
     "coverHard": false,
     "rating": 7,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 425,
     "seriesTitle": "Asteriks",
     "comixTitle": "Wielki rów",
     "author": "Albert Uderzo",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2012,
     "numberOfPages": 44,
+    "coverUrlLink": "assets/cover/asteriks/asteriks-wielki-row.webp",
     "coverHard": false,
     "rating": 7,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 426,
     "seriesTitle": "Asteriks",
     "comixTitle": "Odyseja Asteriksa",
-    "author": "Rene Goscinny, Albert Uderzo",
+    "author": "Albert Uderzo",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2022,
     "numberOfPages": 44,
+    "coverUrlLink": "assets/cover/asteriks/asteriks-odyseja-asteriksa.webp",
     "coverHard": false,
     "rating": 7,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 427,
     "seriesTitle": "Asteriks",
     "comixTitle": "Syn Asteriksa",
     "author": "Albert Uderzo",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2012,
     "numberOfPages": 44,
+    "coverUrlLink": "assets/cover/asteriks/asteriks-syn-asteriksa.webp",
     "coverHard": false,
     "rating": 7,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 428,
     "seriesTitle": "Asteriks",
     "comixTitle": "Asteriks u Reszehezady",
     "author": "Rene Goscinny, Albert Uderzo",
@@ -822,121 +953,141 @@
     "userId": 1
   },
   {
+    "id": 429,
     "seriesTitle": "Asteriks",
     "comixTitle": "Róża i miecz",
     "author": "Albert Uderzo",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2012,
     "numberOfPages": 44,
+    "coverUrlLink": "assets/cover/asteriks/asteriks-roza-i-miecz.webp",
     "coverHard": false,
     "rating": 7,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 430,
     "seriesTitle": "Asteriks",
     "comixTitle": "Galera Obeliksa",
-    "author": "Rene Goscinny, Albert Uderzo",
+    "author": "Albert Uderzo",
     "collected": false,
     "userId": 1
   },
   {
+    "id": 431,
     "seriesTitle": "Asteriks",
     "comixTitle": "Asteriks i Latraviata",
-    "author": "Rene Goscinny, Albert Uderzo",
+    "author": "Albert Uderzo",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2013,
     "numberOfPages": 48,
+    "coverUrlLink": "assets/cover/asteriks/asteriks-i-latraviara.webp",
     "coverHard": false,
     "rating": 8,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 432,
     "seriesTitle": "Asteriks",
     "comixTitle": "Galijskie początki",
     "author": "Rene Goscinny, Albert Uderzo",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2013,
     "numberOfPages": 55,
+    "coverUrlLink": "assets/cover/asteriks/asteriks-galijskie-poczatki.webp",
     "coverHard": false,
     "rating": 6,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 433,
     "seriesTitle": "Asteriks",
     "comixTitle": "Kiedy niebo spada na głowę",
     "author": "Albert Uderzo",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2013,
     "numberOfPages": 44,
+    "coverUrlLink": "assets/cover/asteriks/asteriks-kiedy-niebo-spada-na-glowe.webp",
     "coverHard": false,
     "rating": 7,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 434,
     "seriesTitle": "Asteriks",
     "comixTitle": "Rocznica urodzin Asteriksa i Obeliksa - Złota księga",
     "author": "Rene Goscinny, Albert Uderzo",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2023,
     "numberOfPages": 49,
+    "coverUrlLink": "assets/cover/asteriks/asteriks-rocznica-urodzin-asteriksa-i-obeliksa-zlota-ksiega.webp",
     "coverHard": false,
     "rating": 7,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 435,
     "seriesTitle": "Asteriks",
     "comixTitle": "Asteriks u Piktów",
     "author": "Jean-Yves Ferri, Didier Conrad",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2022,
     "numberOfPages": 44,
+    "coverUrlLink": "assets/cover/asteriks/asteriks-u-piktow.webp",
     "coverHard": false,
     "rating": 5,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 436,
     "seriesTitle": "Asteriks",
     "comixTitle": "Papirus Cezara",
     "author": "Jean-Yves Ferri, Didier Conrad",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2021,
     "numberOfPages": 44,
+    "coverUrlLink": "assets/cover/asteriks/asteriks-papirus-cezara.webp",
     "coverHard": false,
     "rating": 6,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 437,
     "seriesTitle": "Asteriks",
     "comixTitle": "Asteriks w Italii",
     "author": "Jean-Yves Ferri, Didier Conrad",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2020,
     "numberOfPages": 45,
+    "coverUrlLink": "assets/cover/asteriks/asteriks-w-italii.webp",
     "coverHard": false,
     "rating": 5,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 438,
     "seriesTitle": "Asteriks",
     "comixTitle": "Córka Wercyngetoryksa",
     "author": "Jean-Yves Ferri, Didier Conrad",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2021,
     "numberOfPages": 44,
+    "coverUrlLink": "assets/cover/asteriks/asteriks-corka-wercyngetoryksa.webp",
     "coverHard": false,
     "rating": 5,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 439,
     "seriesTitle": "Asteriks",
     "comixTitle": "Asteriks i Gryf",
     "author": "Rene Goscinny, Albert Uderzo",
@@ -944,6 +1095,7 @@
     "userId": 1
   },
   {
+    "id": 440,
     "seriesTitle": "Asteriks",
     "comixTitle": "Jak Obeliks wpadł do kociołka druida, kiedy był mały",
     "author": "Rene Goscinny, Albert Uderzo",
@@ -951,6 +1103,7 @@
     "userId": 1
   },
   {
+    "id": 441,
     "seriesTitle": "Asteriks",
     "comixTitle": "Złoty menhir",
     "author": "Rene Goscinny, Albert Uderzo",
@@ -958,18 +1111,22 @@
     "userId": 1
   },
   {
-    "seriesTitle": "Idefiks i nieugięci",
+    "id": 490,
+    "seriesTitle": "Asteriks",
+    "seriesSubtitle": "Idefiks i nieugięci",
     "comixTitle": "W tej dzielnicy żadnej łaciny",
     "author": "Różni autorzy na podst. Rene Goscinny, Albert Uderzo",
     "publisher": "EGMONT Polska",
     "publishmentYear": "2022",
     "numberOfPages": 64,
+    "coverUrlLink": "assets/cover/asteriks/idefiks-i-nieugieci-w-tej-dzielnicy-zadnej-laciny.webp",
     "coverHard": false,
     "rating": 6,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 501,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Kopalnia złota Dicka Diggera",
     "author": "Morris",
@@ -977,6 +1134,7 @@
     "userId": 1
   },
   {
+    "id": 502,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Rodeo",
     "author": "Morris",
@@ -984,6 +1142,7 @@
     "userId": 1
   },
   {
+    "id": 503,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Arizona",
     "author": "Morris",
@@ -991,6 +1150,7 @@
     "userId": 1
   },
   {
+    "id": 504,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Pod niebem Zachodu",
     "author": "Morris",
@@ -998,6 +1158,7 @@
     "userId": 1
   },
   {
+    "id": 505,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Lucky Luke kontra Pat Poker",
     "author": "Morris",
@@ -1005,6 +1166,7 @@
     "userId": 1
   },
   {
+    "id": 506,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Wyjęci spod prawa",
     "author": "Morris",
@@ -1012,6 +1174,7 @@
     "userId": 1
   },
   {
+    "id": 507,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Eliksir doktora Doxeya",
     "author": "Morris",
@@ -1019,6 +1182,7 @@
     "userId": 1
   },
   {
+    "id": 508,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Lucky Luke i Phil Defer",
     "author": "Morris",
@@ -1026,6 +1190,7 @@
     "userId": 1
   },
   {
+    "id": 509,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Szyny na prerii",
     "author": "Morris",
@@ -1033,6 +1198,7 @@
     "userId": 1
   },
   {
+    "id": 510,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Uwaga na Niebieskie Stopy",
     "author": "Morris",
@@ -1040,6 +1206,7 @@
     "userId": 1
   },
   {
+    "id": 511,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Lucky Luke kontra Joss Jamon",
     "author": "Morris, Rene Goscinny",
@@ -1047,6 +1214,7 @@
     "userId": 1
   },
   {
+    "id": 512,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Kuzyni Daltonów",
     "author": "Morris, Rene Goscinny",
@@ -1054,6 +1222,7 @@
     "userId": 1
   },
   {
+    "id": 513,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Sędzia",
     "author": "Morris, Rene Goscinny",
@@ -1061,6 +1230,7 @@
     "userId": 1
   },
   {
+    "id": 514,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Na podbój Oklahomy",
     "author": "Morris, Rene Goscinny",
@@ -1068,18 +1238,21 @@
     "userId": 1
   },
   {
+    "id": 515,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Ucieczka Daltonów",
     "author": "Morris, Rene Goscinny",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2019,
     "numberOfPages": 44,
+    "coverUrlLink": "assets/cover/lucky-luke/lucky-luke-ucieczka-daltonow.webp",
     "coverHard": false,
     "rating": 6,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 516,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "W górę Missisipi",
     "author": "Morris, Rene Goscinny",
@@ -1087,17 +1260,20 @@
     "userId": 1
   },
   {
+    "id": 517,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Na tropie Daltonów",
     "author": "Morris, Rene Goscinny",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2020,
     "numberOfPages": 44,
+    "coverUrlLink": "assets/cover/lucky-luke/lucky-luke-na-tropie-daltonow.webp",
     "coverHard": false,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 518,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "W cieniu wież wiertniczych",
     "author": "Morris, Rene Goscinny",
@@ -1105,6 +1281,7 @@
     "userId": 1
   },
   {
+    "id": 519,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Rywale z Painful Gulch",
     "author": "Morris, Rene Goscinny",
@@ -1112,6 +1289,7 @@
     "userId": 1
   },
   {
+    "id": 520,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Billy Kid",
     "author": "Morris, Rene Goscinny",
@@ -1119,6 +1297,7 @@
     "userId": 1
   },
   {
+    "id": 521,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Góry Czarne",
     "author": "Morris, Rene Goscinny",
@@ -1126,17 +1305,20 @@
     "userId": 1
   },
   {
+    "id": 522,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Daltonowie i zamieć",
     "author": "Morris, Rene Goscinny",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2021,
     "numberOfPages": 44,
+    "coverUrlLink": "assets/cover/lucky-luke/lucky-luke-daltonowie-i-zamiec.webp",
     "coverHard": false,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 523,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Daltonowie wciąż uciekają",
     "author": "Morris, Rene Goscinny",
@@ -1144,6 +1326,7 @@
     "userId": 1
   },
   {
+    "id": 524,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Karawana",
     "author": "Morris, Rene Goscinny",
@@ -1151,6 +1334,7 @@
     "userId": 1
   },
   {
+    "id": 525,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Miasto duchów",
     "author": "Morris, Rene Goscinny",
@@ -1158,6 +1342,7 @@
     "userId": 1
   },
   {
+    "id": 526,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Daltonowie odkupują winy",
     "author": "Morris, Rene Goscinny",
@@ -1165,6 +1350,7 @@
     "userId": 1
   },
   {
+    "id": 527,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Dwudziesty pułk kawalerii",
     "author": "Morris, Rene Goscinny",
@@ -1172,6 +1358,7 @@
     "userId": 1
   },
   {
+    "id": 528,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Eskorta",
     "author": "Morris, Rene Goscinny",
@@ -1179,6 +1366,7 @@
     "userId": 1
   },
   {
+    "id": 529,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Zasieki na prerii",
     "author": "Morris, Rene Goscinny",
@@ -1186,6 +1374,7 @@
     "userId": 1
   },
   {
+    "id": 530,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Calamity Jane",
     "author": "Morris, Rene Goscinny",
@@ -1193,6 +1382,7 @@
     "userId": 1
   },
   {
+    "id": 531,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Tortilla dla Daltonów",
     "author": "Morris, Rene Goscinny",
@@ -1200,6 +1390,7 @@
     "userId": 1
   },
   {
+    "id": 532,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Dyliżans",
     "author": "Morris, Rene Goscinny",
@@ -1207,6 +1398,7 @@
     "userId": 1
   },
   {
+    "id": 533,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Żółtodziób",
     "author": "Morris, Rene Goscinny",
@@ -1214,17 +1406,20 @@
     "userId": 1
   },
   {
+    "id": 534,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Dalton City",
     "author": "Morris, Rene Goscinny",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2018,
     "numberOfPages": 45,
+    "coverUrlLink": "assets/cover/lucky-luke/lucky-luke-dalton-city.webp",
     "coverHard": false,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 535,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Jesse James",
     "author": "Morris, Rene Goscinny",
@@ -1232,6 +1427,7 @@
     "userId": 1
   },
   {
+    "id": 536,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Cyrk Western",
     "author": "Morris, Rene Goscinny",
@@ -1239,6 +1435,7 @@
     "userId": 1
   },
   {
+    "id": 537,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Kanion Apaczów",
     "author": "Morris, Rene Goscinny",
@@ -1246,17 +1443,20 @@
     "userId": 1
   },
   {
+    "id": 538,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Mama Dalton",
     "author": "Morris, Rene Goscinny",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2017,
     "numberOfPages": 44,
+    "coverUrlLink": "assets/cover/lucky-luke/lucky-luke-mama-dalton.webp",
     "coverHard": false,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 539,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Łowca nagród",
     "author": "Morris, Rene Goscinny",
@@ -1264,6 +1464,7 @@
     "userId": 1
   },
   {
+    "id": 540,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Wielki książę",
     "author": "Morris, Rene Goscinny",
@@ -1271,6 +1472,7 @@
     "userId": 1
   },
   {
+    "id": 541,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Spadek dla Bzika",
     "author": "Morris, Rene Goscinny",
@@ -1278,6 +1480,7 @@
     "userId": 1
   },
   {
+    "id": 542,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Siedem opowieści o Lucky Luke'u",
     "author": "Morris, Rene Goscinny",
@@ -1285,6 +1488,7 @@
     "userId": 1
   },
   {
+    "id": 543,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Biały jeździec",
     "author": "Morris, Rene Goscinny",
@@ -1292,17 +1496,20 @@
     "userId": 1
   },
   {
+    "id": 544,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Daltonowie na kuracji",
     "author": "Morris, Rene Goscinny",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2018,
     "numberOfPages": 44,
+    "coverUrlLink": "assets/cover/lucky-luke/lucky-luke-daltonowie-na-kuracji.webp",
     "coverHard": false,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 545,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Cesarz Smith",
     "author": "Morris, Rene Goscinny",
@@ -1310,6 +1517,7 @@
     "userId": 1
   },
   {
+    "id": 546,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Śpiewający drut",
     "author": "Morris, Rene Goscinny",
@@ -1317,17 +1525,20 @@
     "userId": 1
   },
   {
+    "id": 547,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Skarb Daltonów",
     "author": "Morris, Vicq",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2018,
     "numberOfPages": 44,
+    "coverUrlLink": "assets/cover/lucky-luke/lucky-luke-skarb-daltonow.jpg",
     "coverHard": false,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 548,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Jednoręki bandyta",
     "author": "Morris, Bob de Groot",
@@ -1335,6 +1546,7 @@
     "userId": 1
   },
   {
+    "id": 549,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Sarah Bernhardt",
     "author": "Morris, Xavier Fauche, Jean Leturgie",
@@ -1342,6 +1554,7 @@
     "userId": 1
   },
   {
+    "id": 550,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Sznur wisielca i inne historie",
     "author": "Morris, Bob de Groot, Dom Domi, Rene Goscinny, Lodewijk, Vicq",
@@ -1349,6 +1562,7 @@
     "userId": 1
   },
   {
+    "id": 551,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Daisy Town",
     "author": "Morris, Rene Goscinny",
@@ -1356,6 +1570,7 @@
     "userId": 1
   },
   {
+    "id": 552,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Fingers",
     "author": "Morris, Lo Hartog Van Banda",
@@ -1363,6 +1578,7 @@
     "userId": 1
   },
   {
+    "id": 553,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Daily Star",
     "author": "Morris, Xavier Fauche, Jean Leturgie",
@@ -1370,6 +1586,7 @@
     "userId": 1
   },
   {
+    "id": 554,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Narzeczona Lucky Luke’a",
     "author": "Morris, Guy Vidal",
@@ -1377,17 +1594,20 @@
     "userId": 1
   },
   {
+    "id": 555,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Ballada o Daltonach i inne opowieści",
     "author": "Morris, Rene Goscinny, Greg",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2017,
     "numberOfPages": 46,
+    "coverUrlLink": "assets/cover/lucky-luke/lucky-luke-ballada-o-daltonach-i-inne-opowiesci.webp",
     "coverHard": false,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 556,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Przeklęte ranczo",
     "author": "Morris, Xavier Fauche, Jean Leturgie, Claude Guylouis",
@@ -1395,6 +1615,7 @@
     "userId": 1
   },
   {
+    "id": 557,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Nitrogliceryna",
     "author": "Morris, Lo Hartog Van Banda",
@@ -1402,6 +1623,7 @@
     "userId": 1
   },
   {
+    "id": 558,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Alibi",
     "author": "Morris, Claude Guylouis",
@@ -1409,6 +1631,7 @@
     "userId": 1
   },
   {
+    "id": 559,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Pony Express",
     "author": "Morris, Xavier Fauche, Jean Leturgie",
@@ -1416,17 +1639,20 @@
     "userId": 1
   },
   {
+    "id": 560,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Daltonowie tracą pamięć",
     "author": "Morris, Xavier Fauche, Jean Leturgie",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2018,
     "numberOfPages": 44,
+    "coverUrlLink": "assets/cover/lucky-luke/lucky-luke-daltonowie-traca-pamiec.webp",
     "coverHard": false,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 561,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Polowanie na duchy",
     "author": "Morris, Lo Hartog Van Banda",
@@ -1434,6 +1660,7 @@
     "userId": 1
   },
   {
+    "id": 562,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Daltonowie na ślubie",
     "author": "Morris, Xavier Fauche, Jean Leturgie",
@@ -1441,6 +1668,7 @@
     "userId": 1
   },
   {
+    "id": 563,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Most na Missisipi",
     "author": "Morris, Xavier Fauche, Jean Leturgie",
@@ -1448,6 +1676,7 @@
     "userId": 1
   },
   {
+    "id": 564,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Belle Starr",
     "author": "Morris, Xavier Fauche",
@@ -1455,6 +1684,7 @@
     "userId": 1
   },
   {
+    "id": 565,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Klondike",
     "author": "Morris, Jean Leturgie, Yann",
@@ -1462,6 +1692,7 @@
     "userId": 1
   },
   {
+    "id": 566,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Corral OK",
     "author": "Morris, Eric Adam, Xavier Fauche",
@@ -1469,6 +1700,7 @@
     "userId": 1
   },
   {
+    "id": 567,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Marcel Dalton",
     "author": "Morris, Bob de Groot",
@@ -1476,6 +1708,7 @@
     "userId": 1
   },
   {
+    "id": 568,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Prorok",
     "author": "Morris, Patrick Nordmann",
@@ -1483,6 +1716,7 @@
     "userId": 1
   },
   {
+    "id": 569,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Artysta malarz",
     "author": "Morris, Bob de Groot",
@@ -1490,6 +1724,7 @@
     "userId": 1
   },
   {
+    "id": 570,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Legenda Zachodu",
     "author": "Morris, Patrick Nordmann",
@@ -1497,6 +1732,7 @@
     "userId": 1
   },
   {
+    "id": 571,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Piękna prowincja",
     "author": "Achde, Laurent Gerra",
@@ -1504,6 +1740,7 @@
     "userId": 1
   },
   {
+    "id": 572,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Pętla na szyi",
     "author": "Achde, Laurent Gerra",
@@ -1511,6 +1748,7 @@
     "userId": 1
   },
   {
+    "id": 573,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Człowiek z Waszyngtonu",
     "author": "Achde, Laurent Gerra",
@@ -1518,6 +1756,7 @@
     "userId": 1
   },
   {
+    "id": 574,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Lucky Luke kontra Pinkerton",
     "author": "Achde, Daniel Pennac, Tonino Benacquista",
@@ -1525,6 +1764,7 @@
     "userId": 1
   },
   {
+    "id": 575,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Samotny jeździec",
     "author": "Achde, Daniel Pennac, Tonino Benacquista",
@@ -1532,17 +1772,20 @@
     "userId": 1
   },
   {
+    "id": 576,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Wujaszkowie Dalton",
     "author": "Achde, Laurent Gerra, Jacques Pessis",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2017,
     "numberOfPages": 44,
+    "coverUrlLink": "assets/cover/lucky-luke/lucky-luke-wujaszkowie-dalton.jpg",
     "coverHard": false,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 577,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Ziemia obiecana",
     "author": "Achde, Jul",
@@ -1550,6 +1793,7 @@
     "userId": 1
   },
   {
+    "id": 578,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Kowboj w Paryżu",
     "author": "Achde, Jul",
@@ -1557,6 +1801,7 @@
     "userId": 1
   },
   {
+    "id": 579,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Lucky Luke w bawełnie",
     "author": "Achde, Jul",
@@ -1564,6 +1809,7 @@
     "userId": 1
   },
   {
+    "id": 580,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Człowiek, który zabił Lucky Luke’a",
     "author": "Matthieu Bonhomme",
@@ -1571,6 +1817,7 @@
     "userId": 1
   },
   {
+    "id": 581,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Lucky Luke na siodełku",
     "author": "Mawil",
@@ -1578,6 +1825,7 @@
     "userId": 1
   },
   {
+    "id": 582,
     "seriesTitle": "Lucky Luke",
     "comixTitle": "Wanted Lucky Luke",
     "author": "Matthieu Bonhomme",
@@ -1585,6 +1833,7 @@
     "userId": 1
   },
   {
+    "id": 583,
     "seriesTitle": "Lucky Luke",
     "seriesSubtitle": "Kid Lucky - 1",
     "comixTitle": "Uczeń kowboja",
@@ -1593,6 +1842,7 @@
     "userId": 1
   },
   {
+    "id": 584,
     "seriesTitle": "Lucky Luke",
     "seriesSubtitle": "Kid Lucky - 2",
     "comixTitle": "Niebezpieczne lasso",
@@ -1601,6 +1851,7 @@
     "userId": 1
   },
   {
+    "id": 585,
     "seriesTitle": "Lucky Luke",
     "seriesSubtitle": "Kid Lucky - 3",
     "comixTitle": "Statua Squaw",
@@ -1609,6 +1860,7 @@
     "userId": 1
   },
   {
+    "id": 586,
     "seriesTitle": "Lucky Luke",
     "seriesSubtitle": "Kid Lucky - 4",
     "comixTitle": "Podążaj za strzałą",
@@ -1617,6 +1869,7 @@
     "userId": 1
   },
   {
+    "id": 587,
     "seriesTitle": "Lucky Luke",
     "seriesSubtitle": "Kid Lucky - 5",
     "comixTitle": "Podwójny Kid",
@@ -1625,54 +1878,63 @@
     "userId": 1
   },
   {
+    "id": 601,
     "seriesTitle": "Jonka, Jonek i Kleks",
     "comixTitle": "Niech żyje wyobraźnia",
     "author": "Szarlota Pawel",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2020,
     "numberOfPages": 62,
+    "coverUrlLink": "assets/cover/jonka-jonek-i-kleks/jonka-jonek-i-kleks-niech-zyje-wyobraznia.jpg",
     "coverHard": false,
     "rating": 5,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 602,
     "seriesTitle": "Jonka, Jonek i Kleks",
     "comixTitle": "Porwanie księżniczki",
     "author": "Szarlota Pawel",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2016,
     "numberOfPages": 62,
+    "coverUrlLink": "assets/cover/jonka-jonek-i-kleks/jonka-jonek-i-kleks-porwanie-ksiezniczki.webp",
     "coverHard": false,
     "rating": 6,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 603,
     "seriesTitle": "Jonka, Jonek i Kleks",
     "comixTitle": "Pióro kontra flamaster",
     "author": "Szarlota Pawel",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2021,
     "numberOfPages": 60,
+    "coverUrlLink": "assets/cover/jonka-jonek-i-kleks/jonka-jonek-i-kleks-pioro-kontra-flamaster.webp",
     "coverHard": false,
     "rating": 6,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 604,
     "seriesTitle": "Jonka, Jonek i Kleks",
     "comixTitle": "Smocze jajo",
     "author": "Szarlota Pawel",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2016,
     "numberOfPages": 61,
+    "coverUrlLink": "assets/cover/jonka-jonek-i-kleks/jonka-jonek-i-kleks-smocze-jajo.webp",
     "coverHard": false,
     "rating": 6,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 605,
     "seriesTitle": "Jonka, Jonek i Kleks",
     "comixTitle": "Złoto Alaski",
     "author": "Szarlota Pawel",
@@ -1680,6 +1942,7 @@
     "userId": 1
   },
   {
+    "id": 606,
     "seriesTitle": "Jonka, Jonek i Kleks",
     "comixTitle": "W pogoni za czarnym Kleksem",
     "author": "Szarlota Pawel",
@@ -1687,42 +1950,49 @@
     "userId": 1
   },
   {
+    "id": 701,
     "seriesTitle": "Oskar i Fabrycy",
     "comixTitle": "Straszne smoczysko",
     "author": "Mieczysław Fijał",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2017,
     "numberOfPages": 38,
+    "coverUrlLink": "assets/cover/oskar-i-fabrycy/oskar-i-fabrycy-straszne-smoczysko.webp",
     "coverHard": false,
     "rating": 5,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 702,
     "seriesTitle": "Oskar i Fabrycy",
     "comixTitle": "Dyliżans widmo",
     "author": "Mieczysław Fijał, Maciej Kur",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2018,
     "numberOfPages": 38,
+    "coverUrlLink": "assets/cover/oskar-i-fabrycy/oskar-i-fabrycy-dylizans-widmo.webp",
     "coverHard": false,
     "rating": 6,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 801,
     "seriesTitle": "Przygody Smerfów",
     "comixTitle": "Z życia Smerfów",
     "author": "Peyo, Yvan Delporte",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2019,
     "numberOfPages": 52,
+    "coverUrlLink": "assets/cover/przygody-smerfow/przygody-smerfow-z-zycia-smerfow.jpg",
     "coverHard": false,
     "rating": 6,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 802,
     "seriesTitle": "Przygody Smerfów",
     "seriesSubtitle": "Smerfy i wioska dziewczyn",
     "comixTitle": "Kruk",
@@ -1730,17 +2000,21 @@
     "publisher": "EGMONT Polska",
     "publishmentYear": 2019,
     "numberOfPages": 52,
+    "coverUrlLink": "assets/cover/przygody-smerfow/przygody-smerfow-smerfy-i-wioska-dziewczyn-kruk.jpg",
     "coverHard": false,
     "rating": 6,
     "collected": true,
     "userId": 1
   },
   {
+    "id": 901,
+    "seriesTitle": "Różne",
     "comixTitle": "Umpa-Pa czerwonoskóry",
     "author": "Rene Goscinny, Albert Uderzo",
     "publisher": "EGMONT Polska",
     "publishmentYear": 2007,
     "numberOfPages": 176,
+    "coverUrlLink": "assets/cover/rozne/umpa-pa-czerwonoskory.webp",
     "coverHard": true,
     "rating": 6,
     "collected": true,

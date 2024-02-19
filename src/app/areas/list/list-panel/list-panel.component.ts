@@ -32,9 +32,9 @@ export class ListPanelComponent implements OnInit {
   }
 
   initColumns() {
-    this.columnsKeys = ['id', 'displayName', 'author', 'numberOfPages', 'coverHard', 'rating'];
-    this.columnsNames = ['Nr', 'Name', 'Author', 'Pages', 'Hard', 'Rating'];
-    this.columnsFlex = [5, 50, 30, 5, 5, 5];
+    this.columnsKeys = ['id', 'displayName', 'author', 'numberOfPages', 'rating'];
+    this.columnsNames = ['Id', 'Tytuł', 'Autor', 'Strony', 'Ocena'];
+    this.columnsFlex = [5, 45, 30, 10, 10];
   }
 
   getSeriesTitleParameter(): void {
