@@ -68,8 +68,6 @@ export class ListPanelComponent implements OnInit {
       item.displayName += item.seriesTitle ? item.seriesTitle : '';
       item.displayName += item.seriesSubtitle ? (' - ' + item.seriesSubtitle) : '';
       item.displayName += item.comixTitle ? ((item.seriesTitle ? ': ' : '') + item.comixTitle) : '';
-      item.coverHard = item.coverHard ? '+' : '-';
-      item.rating = item.rating ? (item.rating + '/10') : '';
     });
   }
 
