@@ -6,7 +6,7 @@
     </div>
   </div>
 
-  <div class="column second-column" fxLayout="column" fxFlex="50">
+  <div *ngIf="editionMode !== true" class="column second-column" fxLayout="column" fxFlex="50">
 
     <div *ngIf="element.seriesTitle" class="property-container" fxLayout="column">
       <div class="title">Tytuł serii:</div>
@@ -58,6 +58,94 @@
       <div class="title">W kolekcji:</div>
       <div class="desc">TAK</div>
     </div>
+
+    <hr>
+
+    <!-- Edition -->
+    <div fxLayout="row" fxLayout="start" class="edition-container">
+      <div fxLayout="row" fxLayout="start center" fxFlex="50">
+        <mat-form-field class="form-element" fxFlex>
+          <mat-label>Hasło do edycji:</mat-label>
+          <input matInput type="text" id="editionPassword" name="editionPassword" [(ngModel)]="editionPassword">
+        </mat-form-field>
+      </div>
+      <div (click)="onEditClick()" fxFlex="50" class="btn blue"><span class="text">Edytuj</span></div>
+    </div>
+
+  </div>
+
+  <div *ngIf="editionMode === true" class="column" fxLayout="column second-column" fxFlex="50">
+
+    <div class="title">EDYCJA:</div>
+
+    <form #comixForm="ngForm" fxLayout="column">
+
+      <!-- Series Title -->
+      <div class="form-element">
+        <label for="seriesTitle">Tytuł serii:</label>
+        <input type="text" id="seriesTitle" name="seriesTitle" [(ngModel)]="element.seriesTitle">
+      </div>
+
+      <!-- Series Subtitle -->
+      <div class="form-element">
+        <label for="seriesSubtitle">Podtytuł serii:</label>
+        <input type="text" id="seriesSubtitle" name="seriesSubtitle" [(ngModel)]="element.seriesSubtitle">
+      </div>
+
+      <!-- Comix Title -->
+      <div class="form-element">
+        <label for="comixTitle">Tytuł:</label>
+        <input type="text" id="comixTitle" name="comixTitle" [(ngModel)]="element.comixTitle" required>
+      </div>
+
+      <!-- author -->
+      <div class="form-element">
+        <label for="author">Autor:</label>
+        <input type="text" id="author" name="author" [(ngModel)]="element.author">
+      </div>
+
+      <!-- publisher -->
+      <div class="form-element">
+        <label for="publisher">Wydawca:</label>
+        <input type="text" id="publisher" name="publisher" [(ngModel)]="element.publisher">
+      </div>
+
+      <!-- Publishment Year -->
+      <div class="form-element">
+        <label for="publishmentYear">Rok publikacji:</label>
+        <input type="text" id="publishmentYear" name="publishmentYear" [(ngModel)]="element.publishmentYear">
+      </div>
+
+      <!-- Number of Pages -->
+      <div class="form-element">
+        <label for="numberOfPages">Liczba stron:</label>
+        <input type="number" min="1" id="numberOfPages" name="numberOfPages" [(ngModel)]="element.numberOfPages">
+      </div>
+
+      <!-- Cover Hard -->
+      <div class="form-element">
+        <input type="checkbox" id="coverHard" name="coverHard" [(ngModel)]="element.coverHard">
+        <label for="coverHard">Twarda okładka</label>
+      </div>
+
+      <!-- Rating -->
+      <div class="form-element">
+        <label for="rating">Ocena:</label>
+        <input type="number" min="1" max="10" id="rating" name="rating" [(ngModel)]="element.rating">
+      </div>
+
+      <!-- Collected -->
+      <div class="form-element">
+        <input type="checkbox" id="collected" name="collected" [(ngModel)]="element.collected">
+        <label for="collected">W kolekcji</label>
+      </div>
+
+      <!-- Buttons Container -->
+      <div class="buttons-container">
+        <button type="submit" (click)="onSubmitClick()">Save</button>
+      </div>
+
+    </form>
 
   </div>
 

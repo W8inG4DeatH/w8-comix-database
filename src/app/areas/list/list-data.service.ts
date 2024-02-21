@@ -30,8 +30,33 @@ export class ListDataService {
     return this.comixItems;
   }
 
-  async saveComixListData(comixData: IComixItem[]): Promise<any> {
+  async saveComixItem(comixItem: IComixItem): Promise<void> {
+    if (comixItem.id === 0) {
+      // Find the index of the last item with the same seriesTitle
+      const lastIndex = _.findLastIndex(this.comixItems, { seriesTitle: comixItem.seriesTitle });
+      if (lastIndex !== -1) {
+        // Insert the new item after the last item with the same seriesTitle
+        this.comixItems.splice(lastIndex + 1, 0, comixItem);
+      } else {
+        // If no item with the same seriesTitle exists, push to the end of the array
+        this.comixItems.push(comixItem);
+      }
+    } else {
+      // Find the index of the item to replace
+      const index = this.comixItems.findIndex(item => item.id === comixItem.id);
+      if (index !== -1) {
+        // Replace the existing item
+        this.comixItems[index] = comixItem;
+      }
+    }
+
+    // Save the updated list
+    await this.saveComixListData();
+  }
+
+
+  async saveComixListData(): Promise<any> {
     this.savedComixItemsLoaded = false;
-    return firstValueFrom(this.http.post(this.apiUrl, comixData));
+    return firstValueFrom(this.http.post(this.apiUrl, this.comixItems));
   }
 }

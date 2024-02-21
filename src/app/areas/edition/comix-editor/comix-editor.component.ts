@@ -14,7 +14,10 @@ export class ComixEditorComponent implements OnInit {
   @Input()
   public id: number | null = null;
 
-  public element: IComixItem = this.PrepareNewElement();
+  public element: IComixItem = this.prepareNewElement();
+
+  public editionPassword: string = '';
+  public editionMode: boolean = false;
 
   constructor(
     private activatedRoute: ActivatedRoute,
@@ -41,11 +44,11 @@ export class ComixEditorComponent implements OnInit {
   loadElementById(id: number): void {
     this.listDataService.getComixListData().then(data => {
       const foundItem = data.find(item => item.id === id);
-      this.element = foundItem !== undefined ? foundItem : this.PrepareNewElement();
+      this.element = foundItem !== undefined ? foundItem : this.prepareNewElement();
     });
   }
 
-  PrepareNewElement(): IComixItem {
+  prepareNewElement(): IComixItem {
     const newElement: IComixItem = {
       id: 0,
       seriesTitle: '',
@@ -62,12 +65,20 @@ export class ComixEditorComponent implements OnInit {
     return newElement;
   }
 
-  LoadElement(id: number): IComixItem {
-    const loadedElement: IComixItem = this.PrepareNewElement();
+  loadElement(id: number): IComixItem {
+    const loadedElement: IComixItem = this.prepareNewElement();
     return loadedElement;
   }
 
-  OnSubmitClick() {
+  onEditClick() {
+    if (this.editionPassword === 'IHS') {
+      this.editionMode = true;
+    }
+  }
 
+  onSubmitClick() {
+    this.listDataService.saveComixItem(this.element).then(data => {
+      this.editionMode = false;
+    });
   }
 }
