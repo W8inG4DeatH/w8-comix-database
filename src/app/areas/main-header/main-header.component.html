@@ -1,9 +1,11 @@
-<div class="comix-main-header-container" fxLayout="row" fxLayoutAlign="start center">
+<div class="comix-main-header-container" fxLayout="row wrap" fxLayoutAlign="start center">
 
     <div (click)="OnLogoClick()" class="main-logo-container">W8inG4DeatH Comix Database</div>
 
     <div fxFlex></div>
 
-    <user [user]="loginService.loggedUser" [layoutInvert]="true"></user>
+    <div class="user-container">
+      <user [user]="loginService.loggedUser" [layoutInvert]="true"></user>
+    </div>
 
 </div>

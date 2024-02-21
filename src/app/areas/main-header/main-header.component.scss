@@ -1,21 +1,18 @@
-@import 'src/assets/scss/colors.scss';
-
-$headerHeight: 60px;
+@import "src/assets/scss/colors.scss";
 
 .comix-main-header-container {
-    height: $headerHeight;
-    color: $white;
-    padding: 10px 20px;
-    background-color: $field-border;
+  color: $white;
+  background-color: $field-border;
 
-    .main-logo-container {
-        font-size: bolder;
-        font-size: 1.5rem;
-        cursor: pointer;
-    }
+  .main-logo-container {
+    padding: 15px 30px;
+    padding-bottom: 0;
+    font-size: bolder;
+    font-size: 3vh;
+    cursor: pointer;
+  }
 
-    user {
-        height: calc($headerHeight - 20px);
-    }
+  .user-container {
+    padding: 15px 30px;
+  }
 }
-

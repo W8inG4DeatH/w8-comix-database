@@ -6,9 +6,12 @@
     border-right: 4px double $field-border;
 
     .buttons-container {
-      .btn {
-        padding: 5px;
-        line-height: 1.2rem;
+      .button-container {
+        padding: 2px;
+        .btn {
+          padding: 5px;
+          line-height: 1.2rem;
+        }
       }
     }
 }

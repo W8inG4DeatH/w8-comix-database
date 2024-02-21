@@ -1,7 +1,9 @@
-<div class="main-menu-container" fxLayout="column">
+<div class="main-menu-container" fxLayout="column" fxLayout.lt-md="row wrap">
 
     <div *ngFor="let menuElement of mainMenu" routerLink="{{menuElement.routerLink}}" class="buttons-container" fxLayout="column">
+      <div class="button-container">
         <div class="btn blue"><span class="text">{{menuElement.displayName}}</span></div>
+      </div>
     </div>
 
 </div>

@@ -1,6 +1,12 @@
-<div class="content-container" fxLayout="row" fxLayoutAlign="center">
+<div class="content-container" fxLayout="row" fxLayout.lt-md="column" fxLayoutAlign="center">
 
   <div class="column" fxLayout="column" fxFlex="50">
+    <div class="cover-container" fxLayout="row" fxLayoutAlign="center">
+      <img *ngIf="element.coverUrlLink" [src]="element.coverUrlLink" class="cover-img" alt="Cover Image">
+    </div>
+  </div>
+
+  <div class="column second-column" fxLayout="column" fxFlex="50">
 
     <div *ngIf="element.seriesTitle" class="property-container" fxLayout="column">
       <div class="title">Tytuł serii:</div>
@@ -53,12 +59,6 @@
       <div class="desc">TAK</div>
     </div>
 
-  </div>
-
-  <div class="column second-column" fxLayout="column" fxFlex="50">
-    <div class="cover-container" fxLayout="row" fxLayoutAlign="center">
-      <img *ngIf="element.coverUrlLink" [src]="element.coverUrlLink" class="cover-img" alt="Cover Image">
-    </div>
   </div>
 
 </div>
